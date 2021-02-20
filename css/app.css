@@ -1,0 +1,32 @@
+body{
+
+}
+
+#calcContainer{
+	width:400px;
+	background-color: yellow;
+}
+
+#display{
+	background-color: lightgreen;
+	width: 95%;
+	height: 90px;
+	margin: 0px auto;
+	border: solid black 10px;
+	font-size: 40px;
+	text-align: right;
+}
+
+#btnsContainer{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+button{
+	width: 90px;
+	height: 90px;
+	font-size: 50px;
+	margin: 5px 5px;
+	border-radius: 10px;
+}
