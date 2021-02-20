@@ -32,6 +32,8 @@ const pressDivide = () => {
 
 const operatorsRegExp = /[\+\-\/\*]/;
 
+const testForOps = () => {return operatorsRegExp.test(display.innerHTML)} 
+
 const pressEqual = () => {
 	// separate operand1 , operator, operand2
 	//if operator exists continue steps
@@ -82,18 +84,22 @@ const btnsPressed=(btnID)=>{
 			break;
 		case "btnSum" :
 			console.log(`${btnID} was pressed.`);
+			if(testForOps()) {pressEqual()} ;
 			pressSum();
 			break;
 		case "btnSub" :
 			console.log(`${btnID} was pressed.`);
+			testForOps() ? pressEqual() :
 			pressSubtract();
 			break;
 		case "btnMul" :
 			console.log(`${btnID} was pressed.`);
+			testForOps() ? pressEqual() :
 			pressMultiply();
 			break;
 		case "btnDiv":
 			console.log(`${btnID} was pressed.`);
+			testForOps() ? pressEqual() :
 			pressDivide();
 			break;
 	}
