@@ -15,7 +15,9 @@ const pressClear =()=>{
 }
 
 const pressSum = () => {
-	display.innerHTML += "+";
+	const findOps = testForOps();
+	if(!(findOps)){display.innerHTML += "+";}
+	
 } 
 
 const pressSubtract = () => {
@@ -89,17 +91,17 @@ const btnsPressed=(btnID)=>{
 			break;
 		case "btnSub" :
 			console.log(`${btnID} was pressed.`);
-			testForOps() ? pressEqual() :
+			if(testForOps()) {pressEqual()} ;
 			pressSubtract();
 			break;
 		case "btnMul" :
 			console.log(`${btnID} was pressed.`);
-			testForOps() ? pressEqual() :
+			if(testForOps()) {pressEqual()} ;
 			pressMultiply();
 			break;
 		case "btnDiv":
 			console.log(`${btnID} was pressed.`);
-			testForOps() ? pressEqual() :
+			if(testForOps()) {pressEqual()} ;
 			pressDivide();
 			break;
 	}
