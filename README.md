@@ -1,11 +1,11 @@
 # Binary Calculator
-#
+
 #####  (Javascript CSS HTML)
 
 #
-###### Creator : Joshua Cubas
+##### Creator : Joshua Cubas
 #
-#
+#####[Click here to view app](https://joshuacubas.github.io/binaryCalculator/)
 
 
 ### App Basic Info:
