@@ -5,7 +5,7 @@
 #
 ##### Creator : Joshua Cubas
 #
-#####[Click here to view app](https://joshuacubas.github.io/binaryCalculator/)
+[Click here to view app](https://joshuacubas.github.io/binaryCalculator/)
 
 
 ### App Basic Info:
