@@ -1,10 +1,9 @@
 # Binary Calculator
 
-#####  (Javascript CSS HTML)
+##### (Javascript CSS HTML)
 
-#
 ##### Creator : Joshua Cubas
-#
+
 [Click here to view app](https://joshuacubas.github.io/binaryCalculator/)
 
 
